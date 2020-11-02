@@ -1,0 +1,160 @@
+body{
+    background: url("imgs/background2.jpg") no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+}
+.myNav .myNav-holder .navbar-brand{
+    font-size: .875rem;
+    font-weight: bold;
+}
+.myNav{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.myNav .myNav-holder .fa-file-alt{
+    font-size: 20px;
+}
+.myNav .myNav-holder .social{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.myNav .myNav-holder  .download{
+    font-weight: 700;
+}
+.myForm{
+    padding: 3% 0;
+}
+.myForm-holder{
+    background-color: #E2E8F0;
+    width: 27%;
+    padding: 2% 0px;
+    border-radius: 20px;
+}
+.myForm h6{
+    color: #718096;
+}
+.myForm h6:first-of-type{
+    margin-bottom: 15px;
+}
+.myForm label{
+    color: #4a5568;
+    display: block;
+    font-weight: bold;
+}
+.myForm input{
+    display: block;
+}
+.myForm .github{
+    margin-right: 10px;
+    box-shadow: 1px 1px 7px -2px #718096;
+    padding: 6px 13px;
+    font-weight: 600;
+    ;
+}
+.myForm .google{
+    box-shadow: 1px 1px 7px -2px #718096;
+    padding: 6px;
+    font-weight: 600;
+
+}
+.myForm hr{
+    width: 85%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.myForm .sign-in{
+    width: 80%;
+}
+.myForm .sign-in button:last-of-type{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #2d3748;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.myForm .sign-in .form-control{
+    margin-bottom: 10px;
+}
+/******************************** checkbox *****************/
+/* The container */
+.container {
+    display: block;
+    position: relative;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius:5px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2d3748;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 10px;
+    top: 4px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /******************************** end of checkbox *****************/
+footer{
+    padding: 7px 0 10px;
+}
+footer .footer-holder .container .row .col:last-of-type ul{
+    float: right;
+}
+footer .footer-holder .container .row .col:last-of-type ul li{
+    margin-right:15px;
+}
+.divider{
+    width: 76%;
+    border: 0;
+    border-top: 1px solid #4a5568;
+}
+
+.password-message,.email-message{
+    display: none;
+}
